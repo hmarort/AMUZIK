@@ -1,4 +1,4 @@
-# Proyecto Amuzik - Planificación y Desarrollo
+# Amuzik - Planificación y Desarrollo
 
 ## Descripción del Proyecto
 **Nombre:** Amuzik  
