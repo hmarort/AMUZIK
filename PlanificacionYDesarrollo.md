@@ -20,7 +20,7 @@
 - **Autenticación:** JWT (JSON Web Token)
 
 ### APIs Externas
-- **Spotify API:** Reproducción de música
+- **SoundCloud API:** Reproducción de música
 - **WebSockets (PHP Ratchet o Node.js):** Sincronización en tiempo real
 
 ---
