@@ -33,7 +33,7 @@
 | Análisis del Proyecto | 21/03/2025 | 09/04/2025 |
 | Definición del Entorno | 21/03/2025 | 25/03/2025 |
 | Definición de Herramientas | 26/03/2025 | 01/04/2025 |
-| Diseño del Modelo de Datos (E/R) | 02/04/2025 | 09/04/2025 |
+| Definición del Modelo de Datos (E/R) | 02/04/2025 | 09/04/2025 |
 
 ---
 
