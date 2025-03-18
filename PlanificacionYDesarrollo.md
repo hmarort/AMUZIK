@@ -14,8 +14,8 @@
 
 ### Backend
 - **Lenguaje:** PHP
-- **Framework:** Laravel o Slim (API REST)
-- **Base de Datos:** MySQL o PostgreSQL
+- **Framework:** CodeIgniter4 (API REST)
+- **Base de Datos:** PostgreSQL
 - **Autenticación:** JWT (JSON Web Token)
 
 ### APIs Externas
