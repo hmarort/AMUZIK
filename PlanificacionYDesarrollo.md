@@ -73,7 +73,7 @@
 - Perfiles de usuario con configuración personalizada.
 
 **Módulo de Reproducción de Música**
-- Reproducción de canciones desde la API de Spotify.
+- Reproducción de canciones desde la API de SoundCloud.
 - Control de reproducción (pausar, avanzar, retroceder).
 - Sincronización con otros usuarios en tiempo real.
 
