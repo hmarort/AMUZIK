@@ -41,26 +41,26 @@
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
 | Diseño de Datos | 10/04/2025 | 10/04/2025 |
-| Diseño de Clases | 11/04/2025 | 11/04/2025 |
-| Diseño de la UI (Colores y Temas) | 14/04/2025 | 25/04/2025 |
-| Definición de la Estructura de la Aplicación | 28/04/2025 | 29/04/2025 |
+| Diseño de Clases | 11/04/2025 | 15/04/2025 |
+| Diseño de la UI (Colores y Temas) | 16/04/2025 | 16/04/2025 |
+| Definición de la Estructura de la Aplicación | 17/04/2025 | 18/04/2025 |
 
 ---
 
 ### 3. Implementación
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
-| Desarrollo de la Interfaz Gráfica | 30/04/2025 | 07/05/2025 |
-| Desarrollo del Backend | 08/05/2025 | 19/05/2025 |
+| Desarrollo de la Interfaz Gráfica | 30/04/2025 | 11/06/2025 |
+| Desarrollo del Backend | 30/04/2025 | 11/06/2025 |
 
 ---
 
 ### 4. Pruebas y Ajustes Finales
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
-| Pruebas Unitarias y de Integración | 20/05/2025 | 28/05/2025 |
-| Creación del Manual de Usuario | 29/05/2025 | 30/05/2025 |
-| Implantación y Cierre | 02/06/2025 | 02/06/2025 |
+| Pruebas Unitarias y de Integración | 12/06/2025 | 20/06/2025 |
+| Creación del Manual de Usuario | 23/06/2025 | 24/06/2025 |
+| Implantación y Cierre | 25/06/2025 | 25/06/2025 |
 
 ---
 
