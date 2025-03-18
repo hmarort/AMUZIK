@@ -50,8 +50,8 @@
 ### 3. Implementación
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
-| Desarrollo de la Interfaz Gráfica | 30/04/2025 | 11/06/2025 |
-| Desarrollo del Backend | 30/04/2025 | 11/06/2025 |
+| Desarrollo de la Interfaz Gráfica | 18/04/2025 | 11/06/2025 |
+| Desarrollo del Backend | 18/04/2025 | 11/06/2025 |
 
 ---
 
