@@ -1,51 +1,66 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "es-ES" }}">
-  <head>
+<html lang="{{ site.lang | default: 'es-ES' }}">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>{{ site.title }}</title>
+    
+    <!-- CSS del tema Cayman -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  </head>
-  <body>
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.description }}</p>
+        </div>
+    </header>
+
     <main id="content" class="main-content" role="main">
-      <div class="wrapper">
-        <div class="sidebar">
-          {% include sidebar.html %}
+        <div class="wrapper">
+            <aside class="sidebar">
+                {% include sidebar.html %}
+            </aside>
+            <section class="content">
+                {{ content }}
+            </section>
         </div>
-        <div class="content">
-          {{ content }}
-        </div>
-      </div>
     </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            {% include footer.html %}
+        </div>
+    </footer>
+
     <script>
-document.addEventListener('DOMContentLoaded', function() {
-  var contentElement = document.querySelector('.main-content');
-  var tocElement = document.getElementById('markdown-toc');
-  
-  if (contentElement && tocElement) {
-    var headings = contentElement.querySelectorAll('h2, h3, h4, h5, h6');
-    var toc = document.createElement('ul');
-    
-    headings.forEach(function(heading, index) {
-      var anchor = 'toc-' + index;
-      heading.id = anchor;
-      
-      var li = document.createElement('li');
-      var a = document.createElement('a');
-      a.textContent = heading.textContent;
-      a.href = '#' + anchor;
-      a.classList.add(heading.tagName.toLowerCase());
-      
-      li.appendChild(a);
-      toc.appendChild(li);
+    document.addEventListener('DOMContentLoaded', function() {
+        var contentElement = document.querySelector('.main-content');
+        var tocElement = document.getElementById('markdown-toc');
+
+        if (contentElement && tocElement) {
+            var headings = contentElement.querySelectorAll('h2, h3, h4, h5, h6');
+            var toc = document.createElement('ul');
+
+            headings.forEach(function(heading, index) {
+                var anchor = 'toc-' + index;
+                heading.id = anchor;
+
+                var li = document.createElement('li');
+                var a = document.createElement('a');
+                a.textContent = heading.textContent;
+                a.href = '#' + anchor;
+                a.classList.add(heading.tagName.toLowerCase());
+
+                li.appendChild(a);
+                toc.appendChild(li);
+            });
+
+            tocElement.appendChild(toc);
+        }
     });
-    
-    tocElement.appendChild(toc);
-  }
-});
-</script>
-  </body>
-        <footer class="site-footer">
-        {% include footer.html %}
-      </footer>
+    </script>
+</body>
 </html>
