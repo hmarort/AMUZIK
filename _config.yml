@@ -8,21 +8,3 @@ remote_theme: jekyll-theme-cayman
 
 # Configuración de Markdown
 markdown: kramdown
-show_downloads: true
-
-github:
-  is_project_page: true
-  repository_url: "https://github.com/hmarort/amuzik"
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-# Configuración de pie de página
-default_footer: "<footer> © 2025 Amuzik - Todos los derechos reservados. </footer>"
-
-# Configuración de barra lateral
-include:
-  - _includes/footer.html
-  - _includes/sidebar.html
