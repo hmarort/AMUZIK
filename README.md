@@ -1,7 +1,3 @@
-# amuzik
-Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión de usuarios.
-
-
 # Amuzik - Planificación y Desarrollo
 
 ## Descripción del Proyecto
