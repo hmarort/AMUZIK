@@ -89,7 +89,6 @@
 - Cambio de temas (claro, oscuro, colores personalizados).
 - Modificación del tamaño de elementos (fuentes, botones).
 
-## Sígueme en redes sociales
-
+---
 [![GitHub](https://img.shields.io/badge/GitHub-hmarort-blue?style=flat&logo=github)](https://github.com/hmarort)  
 [![Instagram](https://img.shields.io/badge/Instagram-hmarort-purple?style=flat&logo=instagram)](https://instagram.com/hmarort)
