@@ -27,7 +27,6 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 - **WebSockets (PHP Ratchet o Node.js):** Sincronización en tiempo real
 
 ---
-
 ## Módulos Principales
 
 ### Módulo de Usuarios
