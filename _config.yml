@@ -7,21 +7,6 @@ description: "Proyecto de fin de ciclo: Media Player con sincronización en tiem
 remote_theme: jekyll-theme-cayman
 markdown: kramdown
 
-sidebar:
-  - title: Inicio
-    url: /
-  - title: Sobre el Proyecto
-    url: /about/
-  - title: Características
-    children:
-      - title: Reproductor
-        url: /features/player/
-      - title: Sincronización
-        url: /features/sync/
-  - title: Documentación
-    url: /docs/
-  - title: Contacto
-    url: /contact/
 social:
   github: hmarort
   instagram: hmarort
