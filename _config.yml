@@ -1,18 +1,29 @@
+# Configuración básica
 title: Amuzik - Proyecto de Fin de Ciclo
 author: Héctor Martín Ortega
 email: hecmaror04@gmail.com
-
 description: "Proyecto de fin de ciclo: Media Player con sincronización en tiempo real."
 
 remote_theme: jekyll-theme-cayman
-
-# Configuración de Markdown
 markdown: kramdown
 
 sidebar:
-  - getting-started
-  - label: Secciones
+  - title: Inicio
+    url: /
+  - title: Sobre el Proyecto
+    url: /about/
+  - title: Características
     children:
-      - seccion1
-      - seccion2
-      - seccion3
+      - title: Reproductor
+        url: /features/player/
+      - title: Sincronización
+        url: /features/sync/
+  - title: Documentación
+    url: /docs/
+  - title: Contacto
+    url: /contact/
+social:
+  github: hmarort
+  instagram: hmarort
+  
+show_downloads: false
