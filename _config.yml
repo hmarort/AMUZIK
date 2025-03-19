@@ -1,28 +1,56 @@
-title: Amuzik - Proyecto de Fin de Ciclo
-author: Héctor Martín Ortega
-email: hecmaror04@gmail.com
+# Site settings
+title: Amuzik
+description: Aplicación de reproducción de música con sincronización en tiempo real entre usuarios
+baseurl: ""
+url: ""
 
-description: "Proyecto de fin de ciclo: Media Player con sincronización en tiempo real."
-
-remote_theme: jekyll-theme-leap-day
-
-# Configuración de Markdown
+# Build settings
 markdown: kramdown
-show_downloads: true
+theme: minima
 
-github:
-  is_project_page: true
-  repository_url: "https://github.com/hmarort/amuzik"
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-# Configuración de pie de página
-default_footer: "<footer> © 2025 Amuzik - Todos los derechos reservados. </footer>"
-
-# Configuración de barra lateral
+# Includes
 include:
-  - _includes/footer.html
-  - _includes/sidebar.html
+  - _includes
+
+# Exclude
+exclude:
+  - LICENSE
+  - README.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Custom variables
+project_name: Amuzik
+project_type: Aplicación de reproducción de música
+inspiration: Spotify + Spicetify
+objective: Permitir a los usuarios escuchar la misma canción al mismo tiempo desde diferentes lugares
+
+# Frontend technologies
+frontend_framework: Ionic 7 con Angular
+frontend_language: TypeScript
+frontend_ui: TailwindCSS
+
+# Backend technologies
+backend_language: PHP
+backend_framework: CodeIgniter4 (API REST)
+database: PostgreSQL
+authentication: JWT (JSON Web Token)
+
+# External APIs
+music_api: SoundCloud API
+realtime_sync: WebSockets (PHP Ratchet o Node.js)
+
+# Navigation
+header_pages:
+  - README.md
+
+# Footer
+footer:
+  include: footer.html
+
+# Sidebar
+sidebar:
+  include: sidebar.html
