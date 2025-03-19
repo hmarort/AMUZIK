@@ -31,6 +31,7 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 ## Planificación del Proyecto
 
 ### 1. Planificación Inicial
+
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
 | Definición de Funcionalidades | 18/03/2025 | 20/03/2025 |
@@ -42,6 +43,7 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 ---
 
 ### 2. Diseño y Arquitectura
+
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
 | Diseño de Datos | 10/04/2025 | 10/04/2025 |
@@ -52,6 +54,7 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 ---
 
 ### 3. Implementación
+
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
 | Desarrollo de la Interfaz Gráfica | 18/04/2025 | 11/06/2025 |
@@ -60,6 +63,7 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 ---
 
 ### 4. Pruebas y Ajustes Finales
+
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
 | Pruebas Unitarias y de Integración | 12/06/2025 | 20/06/2025 |
