@@ -1,4 +1,4 @@
-## Descripción del Proyecto
+## Amuzik Media Player
 **Nombre:** Amuzik  
 **Tipo:** Aplicación de reproducción de música con sincronización en tiempo real entre usuarios.  
 **Inspiración:** Spotify + Spicetify  
