@@ -8,3 +8,11 @@ remote_theme: jekyll-theme-cayman
 
 # Configuración de Markdown
 markdown: kramdown
+
+sidebar:
+  - getting-started
+  - label: Secciones
+    children:
+      - seccion1
+      - seccion2
+      - seccion3
