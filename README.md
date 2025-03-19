@@ -2,35 +2,35 @@
 Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión de usuarios.
 
 
-# Planificación y Desarrollo
+## Planificación y Desarrollo
 
-## Descripción del Proyecto
+### Descripción del Proyecto
 **Nombre:** Amuzik  
 **Tipo:** Aplicación de reproducción de música con sincronización en tiempo real entre usuarios.  
 **Inspiración:** Spotify + Spicetify  
 **Objetivo:** Permitir a los usuarios escuchar la misma canción al mismo tiempo desde diferentes lugares.
 
-## Tecnologías
-### Frontend
+### Tecnologías
+#### Frontend
 - **Framework:** Ionic 7 con Angular
 - **Lenguaje:** TypeScript
 - **UI/UX:** TailwindCSS
 
-### Backend
+#### Backend
 - **Lenguaje:** PHP
 - **Framework:** CodeIgniter4 (API REST)
 - **Base de Datos:** PostgreSQL
 - **Autenticación:** JWT (JSON Web Token)
 
-### APIs Externas
+#### APIs Externas
 - **SoundCloud API:** Reproducción de música
 - **WebSockets (PHP Ratchet o Node.js):** Sincronización en tiempo real
 
 ---
 
-## Planificación del Proyecto
+### Planificación del Proyecto
 
-### 1. Planificación Inicial
+#### 1. Planificación Inicial
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
 | Definición de Funcionalidades | 18/03/2025 | 20/03/2025 |
@@ -41,7 +41,7 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 
 ---
 
-### 2. Diseño y Arquitectura
+#### 2. Diseño y Arquitectura
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
 | Diseño de Datos | 10/04/2025 | 10/04/2025 |
@@ -51,7 +51,7 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 
 ---
 
-### 3. Implementación
+#### 3. Implementación
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
 | Desarrollo de la Interfaz Gráfica | 18/04/2025 | 11/06/2025 |
@@ -59,7 +59,7 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 
 ---
 
-### 4. Pruebas y Ajustes Finales
+#### 4. Pruebas y Ajustes Finales
 | Fase | Fecha de Inicio | Fecha de Fin |
 |-----------------------------|-----------------|--------------|
 | Pruebas Unitarias y de Integración | 12/06/2025 | 20/06/2025 |
@@ -68,25 +68,25 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 
 ---
 
-## Módulos Principales
+### Módulos Principales
 
-### Módulo de Usuarios
+#### Módulo de Usuarios
 - Registro e inicio de sesión con autenticación segura.
 - Creación, edición y eliminación de cuentas.
 - Lista de amigos (agregar, aceptar, rechazar solicitudes).
 - Perfiles de usuario con configuración personalizada.
 
-### Módulo de Reproducción de Música
+#### Módulo de Reproducción de Música
 - Reproducción de canciones desde la API de SoundCloud.
 - Control de reproducción (pausar, avanzar, retroceder).
 - Sincronización con otros usuarios en tiempo real.
 
-### Módulo de Sincronización y Conexión
+#### Módulo de Sincronización y Conexión
 - Creación de salas privadas para escuchar juntos.
 - Uso de WebSockets para sincronización en tiempo real.
 - Opción de invitar amigos a una sesión en curso.
 
-### Módulo de Personalización
+#### Módulo de Personalización
 - Cambio de temas (claro, oscuro, colores personalizados).
 - Modificación del tamaño de elementos (fuentes, botones).
 
