@@ -4,7 +4,7 @@ email: hecmaror04@gmail.com
 
 description: "Proyecto de fin de ciclo: Media Player con sincronización en tiempo real."
 
-remote_theme: jekyll-theme-cayman
+remote_theme: jekyll-theme-leap-day
 
 # Configuración de Markdown
 markdown: kramdown
