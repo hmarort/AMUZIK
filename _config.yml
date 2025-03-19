@@ -24,3 +24,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+
+# Configuración de pie de página
+default_footer: "<footer> © 2025 Amuzik - Todos los derechos reservados. </footer>"
+
+# Configuración de barra lateral
+include:
+  - _includes/sidebar.html
