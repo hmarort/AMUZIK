@@ -1,37 +1,28 @@
----
----
-
-@import "{{ site.theme }}";
-
-// Tus estilos personalizados van aquí
-
 .sidebar-nav {
   width: 250px;
   padding: 20px;
   border-right: 1px solid #ddd;
-  
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #0366d6;
-    
-    &:hover {
-      text-decoration: underline;
-    }
-    
-    &.h3 { padding-left: 10px; }
-    &.h4 { padding-left: 20px; }
-    &.h5 { padding-left: 30px; }
-    &.h6 { padding-left: 40px; }
-  }
 }
 
-// Puedes añadir más estilos personalizados aquí
+.sidebar-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.sidebar-nav a:hover {
+  text-decoration: underline;
+}
+
+.sidebar-nav a.h3 { padding-left: 10px; }
+.sidebar-nav a.h4 { padding-left: 20px; }
+.sidebar-nav a.h5 { padding-left: 30px; }
+.sidebar-nav a.h6 { padding-left: 40px; }
