@@ -10,7 +10,7 @@
 ### Frontend
 - **Framework:** Ionic 7 con Angular
 - **Lenguaje:** TypeScript
-- **UI/UX:** Angular Material / TailwindCSS
+- **UI/UX:** TailwindCSS
 
 ### Backend
 - **Lenguaje:** PHP
