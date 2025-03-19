@@ -1,5 +1,5 @@
 title: amuzik
 author: Héctor Martín Ortega
 description: Proyecto de fin de ciclo en el cual crearemos un media player con otras opcines de interés para los usuarios.
-theme: midnight
+theme: minimal
 markdown: kramdown
