@@ -48,7 +48,4 @@ Proyecto de Fin de Ciclo, el cual se centrará en un media player con gestión d
 ### Módulo de Personalización
 - Cambio de temas (claro, oscuro, colores personalizados).
 - Modificación del tamaño de elementos (fuentes, botones).
-
----entes, botones).
-
 ---
