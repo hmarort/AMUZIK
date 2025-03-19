@@ -1,24 +1,3 @@
-<nav class="sidebar-nav">
-  <ul>
-    {% for item in site.sidebar %}
-      {% if item.children %}
-        <!-- Si el elemento tiene hijos (subsecciones) -->
-        <li class="sidebar-item has-children">
-          <span class="sidebar-title">{{ item.title }}</span>
-          <ul class="sidebar-children">
-            {% for child in item.children %}
-              <li class="sidebar-child">
-                <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </li>
-      {% else %}
-        <!-- Si el elemento no tiene hijos -->
-        <li class="sidebar-item">
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+<nav id="markdown-toc" class="sidebar-nav">
+  <!-- La tabla de contenidos se generará aquí -->
 </nav>
