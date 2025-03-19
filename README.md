@@ -1,5 +1,3 @@
-# Amuzik - Planificación y Desarrollo
-
 ## Descripción del Proyecto
 **Nombre:** Amuzik  
 **Tipo:** Aplicación de reproducción de música con sincronización en tiempo real entre usuarios.  
