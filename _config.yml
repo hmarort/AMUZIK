@@ -17,7 +17,7 @@ show_downloads: true
 # Enlaces a redes o repositorio
 github:
   is_project_page: true
-  repository_url: "https://github.com/tuusuario/amuzik"
+  repository_url: "https://github.com/hmarort/amuzik"
 
 # Plugins adicionales (si necesitas extras, agrégalos aquí)
 plugins:
