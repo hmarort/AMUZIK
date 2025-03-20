@@ -75,7 +75,7 @@
 - Perfiles de usuario con configuración personalizada.
 
 ### Módulo de Reproducción de Música
-- Reproducción de canciones desde la API de SoundCloud.
+- Reproducción de canciones desde la API de YouTube.
 - Control de reproducción (pausar, avanzar, retroceder).
 - Sincronización con otros usuarios en tiempo real.
 
@@ -90,4 +90,4 @@
 
 ---
 [![GitHub](https://img.shields.io/badge/GitHub-hmarort-blue?style=flat&logo=github)](https://github.com/hmarort)  
-[![Instagram](https://img.shields.io/badge/Instagram-hmarort-purple?style=flat&logo=instagram)](https://instagram.com/hmarort)
+[![Instagram](https://img.shields.io/badge/Instagram-hmarort-purple?style=flat&logo=instagram)](https://instagram.com/hmarort) 
