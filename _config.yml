@@ -3,15 +3,11 @@ author: Héctor Martín Ortega
 email: hecmaror04@gmail.com
 description: "Proyecto de fin de ciclo: Media Player con sincronización en tiempo real."
 
-# Asegúrate de que el tema está bien especificado
 remote_theme: pages-themes/cayman@v0.2.0
 
 markdown: kramdown
 plugins:
   - jekyll-remote-theme  # Habilita temas remotos en GitHub Pages
-
-# Opciones del tema
-show_downloads: false
 
 social:
   github: hmarort
