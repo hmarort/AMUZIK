@@ -1,5 +1,2 @@
-# Ignoramos las apikey de la aplicación
-apikeys.json
-
-# ignoramos la carpeta de pruebas
+# Ignoramos la carpeta de pruebas
 Pruebas/
